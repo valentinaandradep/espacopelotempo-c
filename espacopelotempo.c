@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-float espaco(float v, float t, float a);
+#include "function_espacopelotempo.c"
 
 int main(int argc, char *argv[]) {
     float v, t, a;
