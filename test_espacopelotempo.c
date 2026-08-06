@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include <math.h>
-
-float espaco(float v, float t, float a);
+#include "function_espacopelotempo.c"
 
 int main(void) {
     assert(fabs(espaco(80, 2, 0) - 160.0) < 0.01);
